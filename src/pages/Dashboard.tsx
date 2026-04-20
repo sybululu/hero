@@ -24,10 +24,10 @@ export default function Dashboard() {
             <div className="w-20 h-20 bg-indigo-50 rounded-full flex items-center justify-center text-indigo-600 mb-6">
               <UploadCloud className="w-10 h-10" />
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-2">上传应用包或隐私政策</h3>
-            <p className="text-slate-500 mb-8">支持 APK, IPA, PDF, TXT 格式，最大 50MB</p>
+            <h3 className="text-xl font-bold text-slate-900 mb-2">上传隐私政策文件或粘贴 URL</h3>
+            <p className="text-slate-500 mb-8">支持 PDF, DOC, TXT 格式上传，或直接输入应用官网网页地址</p>
             <button className="bg-slate-900 text-white px-8 py-3 rounded-full font-medium hover:bg-slate-800 transition-colors">
-              选择文件
+              选择文件或开始抓取
             </button>
           </motion.div>
 
